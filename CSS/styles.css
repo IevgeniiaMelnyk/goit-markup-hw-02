@@ -1,0 +1,108 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primari-white-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--primari-white-color);
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* Site nav */
+
+.logo-nav {
+    color: #000000;
+}
+
+.logo-part {
+    color: var(--accent-color);
+}
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.contacts .link-contacts {
+    color: var(--primary-text-color);
+}
+
+.contacts .link-contacts:hover,
+.link-contacts:focus {
+    color: var(--accent-color);
+}
+
+/* Site main */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Main screen */
+
+.main-title {
+    color: var(--primari-white-color);
+}
+
+/* Features */
+
+.features-title {
+    color: var(--title-text-color);
+}
+
+/* What are we doing */
+
+/* Our team */
+ 
+.team-title {
+    color: var(--title-text-color);
+}
+
+/* Footer */
+
+.footer > a {
+    color: var(--primari-white-color);
+}
+
+.address-maps > a {
+    color: var(--primari-white-color);
+}
+
+/* Button */
+
+.button {
+    color: var(--primari-white-color);
+    background-color: var(--accent-color);
+}
+
+.button.primary {
+    color: var(--primari-white-color);
+    background-color: var(--accent-color);
+}
+
+
+/* цвет основного текста #212121
+вторичный цвет текста #757575
+цвет H1 #FFFFFF
+цвет текста на кнопках #FFFFFF
+цвет лого-части шапка #2196F3
+цвет лого шапка #000000
+цвет навигации #212121
+цвет навигации при ховере #2196F3
+цвет контактов шапки #757575
+цвет контактов шапки при ховере #2196F3
+цвет лого части подвал # 2196F3
+цвет лого подвал #FFFFFF
+цвет адреса подвал #FFFFFF
+цвет контактов подвал rgba(255, 255, 255, 0.6)
+*/
