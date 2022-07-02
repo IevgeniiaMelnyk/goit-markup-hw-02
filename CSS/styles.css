@@ -3,6 +3,8 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primari-white-color: #FFFFFF;
+    --button-color: #F5F4FA;
+    --link-contacts-color: rgba(255, 255, 255, 0.6)
 }
 
 body {
@@ -14,27 +16,38 @@ body {
     list-style: none;
 }
 
+
+
+
 /* Site nav */
 
 .logo-nav {
     color: #000000;
+    text-decoration: none;
 }
 
 .logo-part {
     color: var(--accent-color);
+    text-decoration: none;
 }
 
 .site-nav .link {
     color: var(--title-text-color);
+    text-decoration: none;
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
+.link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
     color: var(--accent-color);
 }
 
 .contacts .link-contacts {
     color: var(--primary-text-color);
+    text-decoration: none;
 }
 
 .contacts .link-contacts:hover,
@@ -42,11 +55,10 @@ body {
     color: var(--accent-color);
 }
 
-/* Site main */
 
-.section-title {
-    color: var(--title-text-color);
-}
+
+/* index.html */
+/* Site main */
 
 /* Main screen */
 
@@ -62,34 +74,79 @@ body {
 
 /* What are we doing */
 
+.services-title {
+    color: var(--title-text-color);
+}
+
 /* Our team */
- 
+
 .team-title {
     color: var(--title-text-color);
 }
+
+.team-name-title {
+    color: var(--title-text-color);
+}
+
+
+
+
+/* portfolio.html */
+/* Site main */
+/* Description */
+
+.description-title {
+    color: var(--title-text-color);
+}
+
+
+
 
 /* Footer */
 
 .footer > a {
     color: var(--primari-white-color);
+    text-decoration: none;
 }
 
 .address-maps > a {
     color: var(--primari-white-color);
+    text-decoration: none;
+}
+
+.address .link-contacts:hover,
+.link-contacts:focus {
+    color: var(--accent-color);
+}
+
+.link-contacts {
+    color: var(--link-contacts-color);
+    text-decoration: none;
 }
 
 /* Button */
-
-.button {
-    color: var(--primari-white-color);
-    background-color: var(--accent-color);
-}
 
 .button.primary {
     color: var(--primari-white-color);
     background-color: var(--accent-color);
 }
 
+.button.primary:hover,
+.button.primary:focus {
+    color: var(--title-text-color);
+    background-color: var(--button-color);
+}
+
+.button.secondary {
+    color: var(--title-text-color);
+    background-color: var(--button-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--primari-white-color);
+    background-color: var(--accent-color);
+}
 
 /* цвет основного текста #212121
 вторичный цвет текста #757575
@@ -105,4 +162,5 @@ body {
 цвет лого подвал #FFFFFF
 цвет адреса подвал #FFFFFF
 цвет контактов подвал rgba(255, 255, 255, 0.6)
+цвет кнопок #F5F4FA
 */
