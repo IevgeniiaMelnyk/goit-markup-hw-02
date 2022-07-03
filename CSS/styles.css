@@ -2,6 +2,7 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --button-primary-color-hover: #188CE8;
     --primari-white-color: #FFFFFF;
     --button-color: #F5F4FA;
     --link-contacts-color: rgba(255, 255, 255, 0.6)
@@ -168,8 +169,8 @@ body {
 
 .button.primary:hover,
 .button.primary:focus {
-    color: var(--title-text-color);
-    background-color: var(--button-color);
+    color: var(--primari-white-color);
+    background-color: var(--button-primary-color-hover);
 }
 
 .button.secondary {
