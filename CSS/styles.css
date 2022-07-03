@@ -12,16 +12,13 @@ body {
     color: var(--primary-text-color);
 }
 
-.list {
-    list-style: none;
-}
 
 
 
 
 /* Site nav */
 
-.logo-nav {
+.header-logo {
     color: #000000;
     text-decoration: none;
 }
@@ -31,27 +28,36 @@ body {
     text-decoration: none;
 }
 
-.site-nav .link {
+.header-nav-list {
+    list-style: none;   
+}
+
+.header-nav-link.current {
+    color: var(--accent-color);
+}
+
+.header-nav-link {
     color: var(--title-text-color);
     text-decoration: none;
+    
 }
 
-.site-nav .link:hover,
-.link:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
     color: var(--accent-color);
 }
 
-.site-nav .link.current {
-    color: var(--accent-color);
+.header-contacts-list {
+    list-style: none;
 }
 
-.contacts .link-contacts {
+.header-contacts-link {
     color: var(--primary-text-color);
     text-decoration: none;
 }
 
-.contacts .link-contacts:hover,
-.link-contacts:focus {
+.header-contacts-link:hover,
+.header-contacts-link:focus {
     color: var(--accent-color);
 }
 
@@ -62,11 +68,15 @@ body {
 
 /* Main screen */
 
-.main-title {
+.hero-title {
     color: var(--primari-white-color);
 }
 
 /* Features */
+
+.features-list {
+    list-style: none;
+}
 
 .features-title {
     color: var(--title-text-color);
@@ -74,17 +84,25 @@ body {
 
 /* What are we doing */
 
+.services-list {
+    list-style: none;
+}
+
 .services-title {
     color: var(--title-text-color);
 }
 
 /* Our team */
 
+.team-list {
+    list-style: none;
+}
+
 .team-title {
     color: var(--title-text-color);
 }
 
-.team-name-title {
+.team-item-title {
     color: var(--title-text-color);
 }
 
@@ -95,6 +113,14 @@ body {
 /* Site main */
 /* Description */
 
+.portfolio-list {
+    list-style: none;
+}
+
+.description-list {
+    list-style: none;
+}
+
 .description-title {
     color: var(--title-text-color);
 }
@@ -104,22 +130,31 @@ body {
 
 /* Footer */
 
-.footer > a {
+.footer-logo {
     color: var(--primari-white-color);
     text-decoration: none;
 }
 
-.address-maps > a {
+.footer-list {
+    list-style: none;
+}
+
+.footer-address-link {
     color: var(--primari-white-color);
     text-decoration: none;
 }
 
-.address .link-contacts:hover,
-.link-contacts:focus {
+.footer-address-link:hover,
+.footer-address-link:focus {
     color: var(--accent-color);
 }
 
-.link-contacts {
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+    color: var(--accent-color);
+}
+
+.footer-contacts-link {
     color: var(--link-contacts-color);
     text-decoration: none;
 }
