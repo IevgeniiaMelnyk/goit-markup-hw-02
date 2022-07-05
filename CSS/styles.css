@@ -5,7 +5,8 @@
     --button-primary-color-hover: #188CE8;
     --primari-white-color: #FFFFFF;
     --button-color: #F5F4FA;
-    --link-contacts-color: rgba(255, 255, 255, 0.6)
+    --link-contacts-color: rgba(255, 255, 255, 0.6);
+    --background-color-secondary: #2F303A;
 }
 
 body {
@@ -88,6 +89,10 @@ h2 {
 /* Site main */
 
 /* Main screen */
+
+.hero {
+    background-color: var(--background-color-secondary);
+}
 
 .hero-title {
     color: var(--primari-white-color);        
@@ -177,6 +182,10 @@ h2 {
 
 
 /* Footer */
+
+.footer {
+    background-color: var(--background-color-secondary);
+}
 
 .footer-logo {
     color: var(--primari-white-color);
