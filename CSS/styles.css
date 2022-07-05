@@ -224,6 +224,7 @@ h2 {
 
 .button {
     font-family: inherit;
+    cursor: pointer;
 }
 
 .button.primary {
