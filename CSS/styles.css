@@ -12,10 +12,12 @@
 body {
     background-color: var(--primari-white-color); /* #000000;*/
     color: var(--primary-text-color);
-    font-family: Roboto; sans-serif;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
-h2 {
+.section-title {
     color: var(--title-text-color);
     font-size: 36px;
     line-height: 1.17;
@@ -35,7 +37,6 @@ h2 {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 
 .logo-part {
@@ -55,7 +56,6 @@ h2 {
     color: var(--title-text-color);
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
@@ -73,7 +73,6 @@ h2 {
     color: var(--primary-text-color);
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
@@ -96,7 +95,6 @@ h2 {
 
 .hero-title {
     color: var(--primari-white-color);        
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;  
@@ -120,9 +118,7 @@ h2 {
 }
 
 .features-text {
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 /* What are we doing */
@@ -149,7 +145,6 @@ h2 {
 .team-item-text {
     font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 
 
@@ -167,7 +162,6 @@ h2 {
 
 .description-title {
     color: var(--title-text-color);
-    font-weight: 700;
     font-size: 18px;
     line-height: 0.2;
     letter-spacing: 0.06em;
@@ -176,8 +170,8 @@ h2 {
 .description-text {
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
 }
+
 
 
 
@@ -194,20 +188,17 @@ h2 {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 
 .footer-list {
     list-style: none;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
-.footer-address-link:hover,
+/* .footer-address-link:hover,
 .footer-address-link:focus {
     color: var(--accent-color);
-}
+} */
 
 .footer-address-link {
     color: var(--primari-white-color);
@@ -224,9 +215,7 @@ h2 {
     color: var(--link-contacts-color);
     text-decoration: none;
     font-style: normal;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 /* Button */
@@ -262,6 +251,11 @@ h2 {
 
 .button.secondary:hover,
 .button.secondary:focus {
+    color: var(--primari-white-color);
+    background-color: var(--accent-color);
+}
+
+.button.secondary.active {
     color: var(--primari-white-color);
     background-color: var(--accent-color);
 }
